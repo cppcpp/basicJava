@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0+" codebase="http://localhost:8080/ResourceTest/" href="ResourceTest.jnlp">
+	<information>
+		<title>ResourceTest Demo Application</title>
+		<vendo>localhost cpp</vendo>
+		<description>A Resource Test Demo</description>
+		<offline-allowed/>
+	</information>
+	<resources>
+		<java version="1.6.0+"/>
+		<!--<jar href="ResourceTest.jar"/>-->
+		<jar href="NewResourceTest.jar"/>
+	</resource>
+	<application-desc/>
+</jnlp>
